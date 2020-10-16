@@ -1,4 +1,4 @@
-https://www.interviewbit.com/problems/matrix-median/
+www.interviewbit.com/problems/matrix-median/
 
 public class Solution {
     public int findMedian(int[][] A) {
