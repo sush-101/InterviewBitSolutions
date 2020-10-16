@@ -22,7 +22,7 @@ public class Solution {
                 
                 //custom binarySearchCustom method, returns
                 //-ve for INSERTION point, 
-                //+ve -> index of LAST occurance of mid
+                //+ve -> index of LAST occurrenceof mid
                 int index = binarySearchCustom(A[i],mid);
                 
                 //numbers at (i < index) are strictly less than mid incaseof INSERTION point
@@ -31,7 +31,7 @@ public class Solution {
                     lessthanmid += index;
                 }
                 
-                //index of last occurance of mid -> numbers at (i < index) may or 
+                //index of last occurrence of mid -> numbers at (i < index) may or 
                 //may not be strictly less than mid
                 else{
                     //not including A[i][index] to lessthanmid counter
